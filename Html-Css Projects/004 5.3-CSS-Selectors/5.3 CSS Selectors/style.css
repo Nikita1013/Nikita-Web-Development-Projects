@@ -1,0 +1,37 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+/* Todo-1 */
+p{
+  color: red;
+}
+
+/* Todo-2 */
+.note{
+  font-size: 20px;
+}
+
+/* Todo-3 */
+#id-selector-demo{
+  color: green;
+}
+
+/* Todo-4 */
+li[value="4"] {
+  color: blue;
+}
+
+
+/* Todo-5 */
+*{
+  text-align: center;
+}
+
+
+
+
