@@ -11,8 +11,6 @@ const yourPassword = "";
 const yourAPIKey = "";
 const yourBearerToken = "";
 
-
-
 app.get("/", (req, res) => {
   res.render("index.ejs", { content: "API Response." });
 });
