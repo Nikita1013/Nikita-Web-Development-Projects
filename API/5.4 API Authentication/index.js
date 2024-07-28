@@ -11,10 +11,7 @@ const yourPassword = "";
 const yourAPIKey = "";
 const yourBearerToken = "";
 
-// const yourUsername = "Jimtober";
-// const yourPassword = "JiminIsTheBest1";
-// const yourAPIKey = "3ec207b6-d7f9-47fd-b724-4290774dded5";
-// const yourBearerToken = "72e1fefd-8adc-4c52-9d77-e7e8f840bafc";
+
 
 app.get("/", (req, res) => {
   res.render("index.ejs", { content: "API Response." });
